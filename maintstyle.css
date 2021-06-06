@@ -3,17 +3,19 @@ body {
   background-image: url("image/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
+  
   font-family: Roboto, Noto Naskh Arabic UI, Arial, sans-serif;
   color: white;
   margin: 0 auto;
   width: 100%;
-  text-align: center;
 }
 .navbar {
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: space-between;
+}
+.title {
+  padding-left: 100px;
 }
 
 .avatar {
