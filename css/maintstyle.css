@@ -1,9 +1,9 @@
 body {
   background-color: black;
-  background-image: url("image/bg.jpg");
+  background-image: url("/image/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   font-family: Roboto, Noto Naskh Arabic UI, Arial, sans-serif;
   color: white;
   margin: 0 auto;
@@ -44,4 +44,16 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+#card-container {
+  padding: 2px 16px;
+}
+.sub-main-container {
+  display: flex;
+  justify-content: center;
+}
+.player {
+  padding: 0px 39px;
+  background-color: rgb(241, 243, 244);
+  border-radius: 0 0 5px 5px;
 }
