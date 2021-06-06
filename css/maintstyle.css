@@ -57,3 +57,8 @@ a {
   background-color: rgb(241, 243, 244);
   border-radius: 0 0 5px 5px;
 }
+.web-name {
+  font-family: "Mulish", sans-serif;
+  font-size: 40px;
+  margin: 10px;
+}

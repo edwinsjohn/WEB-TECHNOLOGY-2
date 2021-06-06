@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/maintstyle.css">
+<!-- CSS only -->
+  <title>Music</title>
+</head>
+<body>
+      <!-- ----------------------------- Navbar div ------------------------------ -->
+  <div class="navbar">
+  <div class="nav">
+    <a href="/index.html" id="nav">Home</a>
+    <a href="" id="nav">Library</a>
+    <a href="" id="nav">Favourits</a>
+    <a href="" id="nav">Login</a>
+    
+  </div>
+  <div class="logo"><h3 id="name" class="web-name">MUSIC</h3></div>
+  <div class="avatar">
+    <img src="/image/man.svg" alt="avatar" width=30>
+  </div>
+</div>
+   <!-- ------------------------------- content ------------------------------- -->
+   <div style="background-color: rgb(1, 16, 20);margin-left:250px;margin-top:100px;width:1000px;height: 580px;display:table"> 
+    <div style="float: left;"><img width="500px" height="580px"  src="images/music.jpg" alt="" preload="preload"></div>
+    <div style="width: 500px;height:580px;float: left;">
+      <h2 style="padding-left: 210px;padding-top: 50px;">LOGIN</h2>
+        <div style="padding-left: 80px;padding-top: 20px;">
+          <form action="index.html" method="POST">
+            <label for="username">Username</label><br>
+            <input style=" width: 80%;
+            padding: 12px;
+            margin: 8px 0px 20px;
+    " type="text" name="username" maxlength="20"/><br>
+            <label for="password">Password</label><br>
+            <input style=" width: 80%;
+            padding: 12px;
+            margin: 8px 0px 20px;
+              " type="password" name="password"
+            size="10" maxlength="10"/><br>
+            <label for="genre">Genre :</label>
+        <select id="genre" name="genre" style=" width: 30%;
+        padding: 12px;
+        margin: 8px 0px 20px;">
+          <option value="pop">Pop</option>
+          <option value="classical">Classical</option>
+          <option value="rock">Rock</option>
+        </select><br>
+            <label > <input type="checkbox" name="staylogined" value="sl" checked="checked"
+              style="margin: 8px 0px 20px;"> Stay Logined</label><br>
+            <input style="width: 60%;
+            background-color: rgb(1, 12, 15);
+            color: white;
+            padding: 14px 20px 20px;
+            margin:20px 50px 20px" type="submit" value="Submit">
+          </form>
+            
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
